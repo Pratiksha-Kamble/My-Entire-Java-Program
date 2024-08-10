@@ -10,9 +10,11 @@ public class TryCatchException1 {
 		Scanner s1=new Scanner(System.in);
 		try
 		{
+			System.out.println("Enter age");
 		int age =s1.nextInt();
-		System.out.println(age);
+		System.out.println("Enter age"+age);
 		}
+	
 		catch(InputMismatchException a1)
 		{
 			System.out.println("Handed the exception");
